@@ -1,0 +1,459 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Cache-Control" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>MC的真相！不为人知的隐藏剧情！</title>
+	<meta name="Keywords" content="手机盒子,MC我的世界,我的世界手机盒子"/>
+	<meta name="description" content="脑洞略大！" />
+	
+	<link rel="stylesheet" rev="stylesheet" href="/resources/css/style.css?v=1.0.3" type="text/css" media="all" />
+	
+	<link rel="stylesheet" rev="stylesheet" href="/resources/css/articleEmbedCommentStyle.css?v=3.2.11" type="text/css" media="all" />
+  	<!--[if gt IE 6]><!-->
+	    <script type="text/javascript">
+	    !function(t){t.loadScript(["http://szhuodong.duowan.com/feq/m_mcbox/yy-f2e-header-m_mcbox.min"])}(function(){function t(t){var e=n(t);document.write(e)}function n(t){for(var n,r="",c=0;n=t[c];c++)r+=e(n);return r}function e(t){var n=[unescape("%3Cscript%20type%3D%22text/javascript%22%20src%3D%22"),"",unescape("%22%3E%3C/script%3E")],e=new Date;return e.setSeconds(0),e.setMilliseconds(0),e=e.getTime(),t+="?t_="+e,n[1]=t,n.join("")}return{loadScript:function(n){n&&n.length&&n instanceof Array&&t(n)}}}())
+	    </script>
+	<!--<![endif]-->
+    <script>
+	    var domain_res = "tuboshu.com";
+	    var domain_duowan ="mcbox.duowan.com";
+	    var domain_web = "mcbox.tuboshu.com";
+	    
+    </script>
+    
+    <script>
+    var _hmt = _hmt || [];
+	(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?94eff913c5b46aa068450df8c163a581";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+	})();
+	function trackEvent(category, action, opt_label, opt_value) {
+//            alert(category + action);
+		try {
+			if (!opt_value) {
+				opt_value = null;
+			}
+
+			// baidu statistic
+			if (window['_hmt'] != null && _hmt != undefined && _hmt) {
+				_hmt
+						.push([ '_trackEvent', category, action, opt_label,
+							opt_value ]);
+			}
+
+			// google statistic
+			if (window['ga'] != null && ga != undefined && ga) {
+				ga('send', 'event', category, action, opt_label, opt_value);
+			}
+
+		} catch (e) {
+
+		}
+		return true;
+	}
+	</script>
+	<script type="text/javascript" src="/resources/js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="/resources/js/kk.js"></script>
+	<script type="text/javascript" src="/resources/js/groundhog.js?v=1"></script>
+	<script type="text/javascript" src="/resources/js/lib/html5media.min.js"></script>
+	<script type="text/javascript" src="/resources/js/lib/jquery.scrollLoading-min.js"></script>
+	<script type="text/javascript" src="/resources/js/article/detail_share.js?v=2.2.1"></script>
+	<script type="text/javascript" src="/resources/js/article/detail_article.js?v=3.7.11"></script>
+</head>
+<body>
+<div class="dwlBanner">
+	<a style="width:20%" class="btn" href="yymctools://yymctools.article.detail?objectId=77728&title=MC的真相！不为人知的隐藏剧情！&mctoolimage=http://img.tuboshu.com/images/article_cover/201508/29/1322/24/201508291322244482_139.jpeg&news=0&mctoolsurl=http://mcbox.tuboshu.com/box/article/app/77728.html">打开盒子</a>
+	
+    <a class="btn" href="/box/">下载</a>
+    <img src="/resources/images/img5.jpg" alt=""/>
+    <div class="info">
+        <h5>多玩我的世界盒子</h5>
+        <p>我的世界手机版必备辅助工具！</p>
+    </div>
+</div>
+<div class="details">
+	<input type="hidden" id="articleId" value="77728"/>
+	<input type="hidden" id="articleTitle" value="MC的真相！不为人知的隐藏剧情！"/>
+	<input type="hidden" id="coverImage" value="http://img.tuboshu.com/images/article_cover/201508/29/1322/24/201508291322244482_139.jpeg"/>
+	<input type="hidden" id="introduction" value="脑洞略大！"/>
+	<input type="hidden" id="videoFlag" value="0"/>
+    <div class="title">
+		<p style="font-size: 0.8em;">MC的真相！不为人知的隐藏剧情！</p>
+	</div>
+    <div class="detaInfo">
+		<p class="time" style="font-size: 1.1em; margin-top: -0.3em;">08-29 18:45</p>
+				<p class="articleAuthor">作者：1249752050<span><a id="articleViewCount">210089</a>阅读</span></p>
+    </div>
+    <div class="lines"></div>
+    <div class="content">
+			<p style="text-align: center;"><span style="color: rgb(192, 0, 0);">已授权盒子发布</span></p> 
+<p>@暮雪初霁之时 是第一发现人，</p> 
+<p>他发现，只要杀掉所有“自己”的“尸体”，就能开辟一个全新的世界！</p> 
+<p>mc真的只有末地，地狱和“主世界”吗？</p> 
+<p>这个游戏真的只是“游戏”吗？</p> 
+<p>mc真的没有结局吗？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 197px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','position':1,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p><span style="color: rgb(75, 172, 198);">隐藏剧情1@暮雪初霁之时 ：</span></p> 
+<p>他发现，僵尸和史蒂夫根本就是同一个人，胡茬一样，衣服一样，头发也一样。</p> 
+<p>僵尸从何而来，为何存在？</p> 
+<p>复活时真的复活了么？</p> 
+<p>复活时是原来的尸体消失，回到出生点，</p> 
+<p>还是原来的尸体消亡，变成一个新的“僵尸”？</p> 
+<p>我们杀的僵尸，其实是在杀“自己”么？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 148px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697_430.png" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','position':2,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p><span style="color: rgb(75, 172, 198);">隐藏剧情2：</span></p> 
+<p>沙漠神庙，丛林遗迹是谁建造的？</p> 
+<p>“村民”从何而来？</p> 
+<p>him，那个作者的弟弟真的车祸死了么？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 213px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','position':3,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p>沙漠神庙，丛林遗迹都有着一个特点：</p> 
+<p>危险，宝物。</p> 
+<p>谁能在丛林遗迹里布置红石机关？</p> 
+<p>谁能在沙漠神庙里放置TNT？</p> 
+<p>谁又在里面放了宝物？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="259" border="0" hspace="0" vspace="0" title="" style="width: 259px; height: 194px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1306/32/201508291306325869_430.jpeg" class="scroll_loading_images" /></p> 
+<p>是“him”吗？</p> 
+<p>那些废弃的矿洞，也是him建造的吗？</p> 
+<p>说不定，他在以前，根本就是一位资深mc玩家，第二个玩mc的人！</p> 
+<p>原作者notch为第一人，但是他并没有在最初版本添加隐藏剧情。</p> 
+<p>也许是him！</p> 
+<p>甚至他可能突破了自己的“隐藏剧情”，在mc初代版已经之后版本都留下了许多匪夷所思的痕迹。</p> 
+<p>也许他肉体已经消亡，但是他的“灵魂”变为了一串串“代码”，隐藏在游戏最深处的一个角落……</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 190px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','position':4,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p>“村民”，</p> 
+<p>一个奇特的“生物”。</p> 
+<p>是除了“史蒂夫”“him”外唯一能建造“规则性建筑”的“生物”。</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 197px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208_430.png" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','position':5,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p>“村民”，</p> 
+<p>怎么来到这个世界？为什么他们有取之不尽的交易资源？</p> 
+<p>也许……他们也是mc的“玩家”。</p> 
+<p>生存在游戏里面，</p> 
+<p>为什么他们会被僵尸追杀？</p> 
+<p>他们，真的只是“友好型生物”吗？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 250px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024_430.png" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','position':6,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p><span style="color: rgb(75, 172, 198);">也许，又是一个新的隐藏剧情。</span></p> 
+<p>“mc”内的时间，与现实时间有什么关系，</p> 
+<p>真的是“白天10分钟，晚上10分钟”吗？</p> 
+<p>也许在“mc”的上古，有一群玩家来到了这个世界</p> 
+<p>他们还在吗？</p> 
+<p>他们的“肉体”还在吗？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 197px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','position':7,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p><span style="color: rgb(75, 172, 198);">隐藏剧情3：</span></p> 
+<p>为什么有“苦力怕”这种奇特的生物？</p> 
+<p>官方解释，苦力怕本来只是制作失败的猪模型……</p> 
+<p>真的是“失败”作品么？</p> 
+<p>为什么“失败”作品能作为“主角”之一？</p> 
+<p>为什么他空洞的眼神里，透出一丝压抑感？</p> 
+<p>“矿车，tnt，苦力怕”曾经被评为mc三大特色。</p> 
+<p>曾经是，现在也是。</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="300" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1331/03/201508291331032240_430.jpeg" class="scroll_loading_images" /></p> 
+<p>苦力怕，</p> 
+<p>仅存在于“游戏”之间么？</p> 
+<p>他们的目标是什么？</p> 
+<p>他们的意义是什么？</p> 
+<p>炸毁房子？不，不仅仅。</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 350px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','position':8,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p>黑曜石上的神秘“方块”。</p> 
+<p>看起来是方块，却具有“生物”的特征。</p> 
+<p>上面神秘的符文由谁书写？</p> 
+<p>最特殊的“方块”，</p> 
+<p>真的只是给末影龙补血吗？</p> 
+<p>为什么他消亡之后，留下的是“没有办法”取得的基岩？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="140" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1328/43/201508291328434929_430.jpeg" class="scroll_loading_images" /></p> 
+<p>“末影龙”，</p> 
+<p>看似是最终boss。</p> 
+<p>为什么他是一点一点的分解？</p> 
+<p>为什么打死以后会弹出“所谓的毕业画面”？</p> 
+<p>传送门由谁建造？</p> 
+<p>为什么龙蛋只是“装饰的战利品”？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 240px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','position':9,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p>为什么notch说出自相矛盾的言论？</p> 
+<p>在“him”出现时，他说：</p> 
+<p>是，我有一个弟弟叫Herobrine，但他已经车祸死了。</p> 
+<p>可是不久后，他又说：</p> 
+<p>我从来都没有弟弟。</p> 
+<p>难道因为他已经知道了这些事情吗？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 197px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','position':10,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p>地图生成器真的是“随机”的吗？</p> 
+<p>遗迹，矿洞，</p> 
+<p>种种迹象表明，这里至少有“玩家”之类的人来过，</p> 
+<p>notch当初介绍游戏时说：</p> 
+<p>mc地图可以达到地球表面的7倍。</p> 
+<p>那在这7倍之后呢？</p> 
+<p>“虚拟基岩”之后呢？</p> 
+<p>是另一个世界吗？</p> 
+<p>Herobrine在那里吗？</p> 
+<p>那里有最终和开始吗？</p> 
+<p>那里，是什么？</p> 
+<p>世界的背面，是代码和数据的交织，是另外的“精神世界”吗？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 197px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','position':11,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p>世界是相同的吗？</p> 
+<p>世界是相通的吗？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="350" border="0" hspace="0" vspace="0" title="" style="width: 350px; height: 261px;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720_430.jpeg" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','position':12,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p>其实不一样的世界，在某个地方是同样的吗？</p> 
+<p>那是那里？</p> 
+<p>除了服务器和局域网，还能在“单人游戏”遇到“某人”吗？</p> 
+<p>这么巨大的世界，只有一个“史蒂夫”吗？</p> 
+<p><span style="color: rgb(75, 172, 198);">隐藏剧情6：</span></p> 
+<p>“天堂”，</p> 
+<p>本因该是天堂，却改成了末地。</p> 
+<p>还有同时期的以太mod发布。</p> 
+<p>只是巧合么？</p> 
+<p>“上锁的箱子”，</p> 
+<p>算是官方证明有him的存在么？</p> 
+<p>“虚空”，</p> 
+<p>虚空底下真的什么都没有么？</p> 
+<p>“地狱遗迹”</p> 
+<p>由谁建造？him？</p> 
+<p>“地牢”</p> 
+<p>只是用来存放“刷怪笼”么？</p> 
+<p>本来在之前版本原版材质有的“椅子，桌子，还有上锁的箱子”去哪里了？</p> 
+<p>notch想隐瞒什么？</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="275" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1316/02/201508291316029077_430.jpeg" class="scroll_loading_images" /></p> 
+<p><span style="color: rgb(192, 0, 0);">整体隐藏剧情：</span></p> 
+<p>你真的认为干掉末影龙就结束了么？</p> 
+<p>其实才刚刚开始.......</p> 
+<p>你也许死了很多次。</p> 
+<p>你得找到“自己”并杀死“他们”。</p> 
+<p>“自己”很可能与别的僵尸不同。</p> 
+<p>比如智能。</p> 
+<p>他们也许会搭建机关，堡垒。</p> 
+<p>他们也许会发起有组织的进攻。</p> 
+<p>他们甚至可能会装死，然后背后捅你一刀。。。。</p> 
+<p>他们挖矿，穿装甲。</p> 
+<p>千万要小心！当你杀死一个“自己”后，“自己”就会向你发起进攻，而现在的你不能复活！</p> 
+<p>然后，“村民”觉醒了，</p> 
+<p>被封锁在深处的数据开始读出，</p> 
+<p>他们将成为“开始”时你的盟友。</p> 
+<p>“世界”将从“边缘”崩塌。</p> 
+<p>不是普通的崩塌，是从“游戏内部数据”开始崩塌。</p> 
+<p>你掉进了虚空。</p> 
+<p>隐约看见了him，封锁数据解放。</p> 
+<p>游戏第一次全盘崩溃……</p> 
+<p>此时，him已经全面侵入你的电脑，</p> 
+<p>重启-红屏-自动进行“游戏”，</p> 
+<p>进入“游戏”，跳转到了“制作失败的天堂雏形”。</p> 
+<p>him用空洞的眼神望着你，</p> 
+<p>所有数据形成乱码。</p> 
+<p>第二次全盘崩溃……</p> 
+<p>乱码烧坏了cpu，此时你已经陷入恐慌，数据顺着鼠标侵入大脑。</p> 
+<p>你已经进入精神世界，即使现实的你看起来只是昏迷。</p> 
+<p>不知道过了多久。</p> 
+<p>你看见了一个个史蒂夫。</p> 
+<p>“欢迎来到精神界域”。</p> 
+<p>him远远望着你。</p> 
+<p>你终于意识到，</p> 
+<p>他们同你们一样。</p> 
+<p>精神来到了这个世界。</p> 
+<p>你疯狂的叫喊，</p> 
+<p>可是无济于事，</p> 
+<p>你眼睁睁的看着自己的手渐渐变成熟悉的方块状。</p> 
+<p>你已经成为他们的一员。</p> 
+<p>你睁开了眼睛……</p> 
+<p>身子却沉重的抬不起来……</p> 
+<p>那种熟悉的呼吸……</p> 
+<p>忽然，一根导线滑落地上，</p> 
+<p>“371号脱离控制！”警报声响起……</p> 
+<p>你醒了，开始了。</p> 
+<p style="text-align: center"><img src="/resources/images/underpic/article430x322.jpg" width="430" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193_430.png" class="scroll_loading_images" onclick="javascript:clickObj(&quot;{'type':'image','src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','position':13,'count':13,'images':[{'src':'http://img.tuboshu.com/images/article/201508/29/1304/43/201508291304438657.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1304/00/201508291304006697.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1303/17/201508291303174180.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1332/20/201508291332204245.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1333/39/201508291333398208.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1334/07/201508291334078024.png','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1329/35/201508291329356135.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/07/201508291324075028.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1323/15/201508291323159455.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1324/57/201508291324579558.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1319/32/201508291319321091.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1316/57/201508291316575720.jpeg','alt':'MC的真相！不为人知的隐藏剧情！\n'},{'src':'http://img.tuboshu.com/images/article/201508/29/1313/01/201508291313013193.png','alt':'MC的真相！不为人知的隐藏剧情！\n'}]}&quot;)" /></p> 
+<p><img src="/resources/images/underpic/article430x322.jpg" width="94" style="float: left;" alt="MC的真相！不为人知的隐藏剧情！" data-url="http://img.tuboshu.com/images/common/201507/24/1026/36/201507241026368503.gif" class="scroll_loading_images" /></p> 
+<p style="white-space: normal;">贴吧作者：1249752050；原帖地址（Minecraft吧）：http://tieba.baidu.com/p/3278026412</p> 
+<p style="white-space: normal;">已授权盒子发布</p> 
+<p><br /></p>
+    </div>
+    <!-- 新增 S-->
+    
+    <div class="comment">
+        <div class="hd">
+            <h3>热门评论</h3>
+            <!-- <h6>1793条</h6> -->
+        </div>
+        <div class="bd">
+            <ul>
+            		<li>
+	            		<img class="pic" src="http://mcuserface.tuboshu.com/face/01/46/36/65/1463665?t=1442588688000" alt="HerobrineinMC"/>
+	                    <div class="info">
+	                        <h4>HerobrineinMC</h4>
+	                        <p>作者你滾出来，我要给你赞</p>
+	                        <div class="commentinfo">
+	                            <span class="zan">1504赞</span>
+	                            	发表于:&nbsp;2年前
+	                        </div>
+	                    </div>
+            		</li>
+            		<li>
+	            		<img class="pic" src="http://mcuserface.tuboshu.com/face/02/14/27/27/2142727?t=1463871738000" alt="我祖宗丨不定期诈尸丨"/>
+	                    <div class="info">
+	                        <h4>我祖宗</h4>
+	                        <p>呵呵，我说实话，看完直接卸载游戏了……好恐怖的说……</p>
+	                        <div class="commentinfo">
+	                            <span class="zan">1266赞</span>
+	                            	发表于:&nbsp;2年前
+	                        </div>
+	                    </div>
+            		</li>
+            		<li>
+	            		<img class="pic" src="http://mcuserface.tuboshu.com/face/03/20/89/00/3208900?t=1448607879000" alt="莫待花独落"/>
+	                    <div class="info">
+	                        <h4>雨后的回忆</h4>
+	                        <p>例如假区块，无限大的世界为什么会有假区块呢？</p>
+	                        <div class="commentinfo">
+	                            <span class="zan">817赞</span>
+	                            	发表于:&nbsp;2年前
+	                        </div>
+	                    </div>
+            		</li>
+            		<li>
+	            		<img class="pic" src="http://mcuserface.tuboshu.com/face/01/27/51/45/1275145?t=1467518901000" alt="Mr233来也"/>
+	                    <div class="info">
+	                        <h4>看我名字的SB干啥呢</h4>
+	                        <p>要不给Notch点吐真剂吃啊</p>
+	                        <div class="commentinfo">
+	                            <span class="zan">704赞</span>
+	                            	发表于:&nbsp;2年前
+	                        </div>
+	                    </div>
+            		</li>
+            		<li>
+	            		<img class="pic" src="http://mcuserface.tuboshu.com/face/00/60/40/81/604081" alt="哥白尼12138"/>
+	                    <div class="info">
+	                        <h4>哥白尼12138</h4>
+	                        <p>吓得我都不敢玩儿电脑了。。</p>
+	                        <div class="commentinfo">
+	                            <span class="zan">224赞</span>
+	                            	发表于:&nbsp;2年前
+	                        </div>
+	                    </div>
+            		</li>
+            		<li>
+	            		<img class="pic" src="http://mcuserface.tuboshu.com/face/03/12/22/18/3122218?t=1445856325000" alt="苦力怕creepr"/>
+	                    <div class="info">
+	                        <h4>1258852</h4>
+	                        <p>这么说，MC只是Him的精神世界，未地和地狱只是他的心灵深处，假区块是他成长中的障碍，三大神殿是他成长中的收获与困难</p>
+	                        <div class="commentinfo">
+	                            <span class="zan">191赞</span>
+	                            	发表于:&nbsp;2年前
+	                        </div>
+	                    </div>
+            		</li>
+            		<li>
+	            		<img class="pic" src="http://mcuserface.tuboshu.com/face/01/24/43/59/1244359?t=1444095580000" alt="盒子online_15600662"/>
+	                    <div class="info">
+	                        <h4>herobrine大神</h4>
+	                        <p>这个恐怖吗？想想作业吧呜呜😭</p>
+	                        <div class="commentinfo">
+	                            <span class="zan">178赞</span>
+	                            	发表于:&nbsp;2年前
+	                        </div>
+	                    </div>
+            		</li>
+            		<li>
+	            		<img class="pic" src="http://mcuserface.tuboshu.com/face/04/33/55/89/4335589?t=1463492579000" alt="流星之泪"/>
+	                    <div class="info">
+	                        <h4>流星之泪</h4>
+	                        <p>苦力怕是猪的残废品，也是MC的一大特点，当然不呢放过，表情不压抑怎么好好爆炸，自己在哪，如果我承认我们死了成为僵尸，那么刷怪笼呢，刷自己？</p>
+	                        <div class="commentinfo">
+	                            <span class="zan">71赞</span>
+	                            	发表于:&nbsp;2年前
+	                        </div>
+	                    </div>
+            		</li>
+            </ul>
+           		 <a class="allcomment" href="javascript:;">下载盒子最新版，查看全部评论</div>
+            
+        </div>
+    </div>
+    
+    <!--新增 推荐-->
+    <div class="thisrecom">
+        <h3>相关推荐</h3>
+        	<div class="list list2">
+	            <ul>
+		            	<li>
+		            	
+		            			<a  href="http://mcbox.tuboshu.com/box/article/148324.html">
+			            		<div class="info">
+		                            <h5>魔术：教你生存时在小白面前不受伤害</h5>
+		                            <div class="other">
+		                               	4.6万阅读&nbsp;&nbsp;2018-02-20
+		                            </div>
+		                        </div>
+		            		</a>
+		            	</li>
+		            	<li>
+		            	
+		            			<a  href="http://mcbox.tuboshu.com/box/article/147655.html">
+			            		<div class="info">
+		                            <h5>关于闪电你可能不知道的7件事！</h5>
+		                            <div class="other">
+		                               	5.6万阅读&nbsp;&nbsp;2018-02-04
+		                            </div>
+		                        </div>
+		            		</a>
+		            	</li>
+		            	<li>
+		            	
+		            			<a  href="http://mcbox.tuboshu.com/box/article/148588.html">
+			            		<div class="info">
+		                            <h5>命令方块：一键砍树（简化版）</h5>
+		                            <div class="other">
+		                               	1.2万阅读&nbsp;&nbsp;2018-02-26
+		                            </div>
+		                        </div>
+		            		</a>
+		            	</li>
+		            	<li>
+		            	
+		            			<a  href="http://mcbox.tuboshu.com/box/article/147694.html">
+			            		<div class="info">
+		                            <h5>鸿雀：可防怪的超级酷炫镭射门</h5>
+		                            <div class="other">
+		                               	1.7万阅读&nbsp;&nbsp;2018-02-10
+		                            </div>
+		                        </div>
+		            		</a>
+		            	</li>
+	            </ul>
+	        </div>
+    </div>
+    <!--相关推荐-->
+    <!--广告位-->
+    <div class="adimg">
+	    	  -->
+	  			<a  href="mcbox://9/13871590" onclick="groundhog.stat.recordOnce(2,300,100,26797);">
+	    			<img src="http://img.tuboshu.com/images/common/201802/01/1509/27/201802011509273682.png" />
+	    		</a>
+    		<span>推广</span>
+    </div>
+    <script type="text/javascript">
+    	groundhog.stat.recordOnce(1,300,1,26797);
+    	
+    	function addOnclick(){
+    		groundhog.stat.recordOnce(2,300,1,26797);
+    		clickObj("{'type':'','src':'','text':'【M社】角色扮演月赛'}");
+    	} 
+    	
+    	
+    	
+	</script>
+    <!--广告位-->
+</div>
+
+  <!--[if gt IE 6]><!-->
+	<script type="text/javascript">
+	    window.onerror = function(a,b,c){ return true};!function(t){t.loadScript(["http://szhuodong.duowan.com/feq/m_mcbox/yy-f2e-m_mcbox.min"])}(function(){function t(e,a){var n=a[e];if(n){e++;var o=document.createElement("script");o.type="text/javascript",o.setAttribute("async","async"),o.onload=o.onreadystatechange=function(){return o.readyState&&"complete"!==o.readyState&&"loaded"!==o.readyState?!1:(o.onload=o.onreadystatechange=null,void t(e,a))};var c=new Date;c.setSeconds(0),c.setMilliseconds(0),c=c.getTime(),o.async=!0,o.src=n+"?_="+c,document.getElementsByTagName("head")[0].appendChild(o)}}return{loadScript:function(e){e&&e.length&&e instanceof Array&&t(0,e)}}}());
+	</script>
+	<!--<![endif]-->
+</body>
+
+
+</html>

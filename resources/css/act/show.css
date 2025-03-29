@@ -1,0 +1,34 @@
+﻿.show-tit{ width:100%; height:132px; background:url(/resources/images/act/show/show_tit.png) no-repeat 0 0; _background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/show/show_tit.png");}
+
+.main1 .menu{}
+.main1 .menu a{ float:left; font-size:36px; line-height:44px; margin-right:50px; margin-top:61px;}
+.main1 .menu a.on{ border-bottom:4px solid #ffa606;}
+
+.main2{ background:#85b029; padding-top:40px;}
+.main2 .work-list{ width:100%; overflow:hidden;}
+.main2 .work-list ul{ margin-right:-100px;}
+.main2 .work-list li{ float:left; margin-right:83px; margin-bottom:50px; width:290px;}
+.main2 .work-list li .pic{ display:block; width:290px; height:290px; background:#fff; margin-bottom:20px; overflow:hidden;}
+.main2 .work-list li .pic img{  display: inline-block; *display:inline; *zoom:1; vertical-align: middle; width:100%; position:relative; z-index:0;}
+.main2 .work-list li .pic i{ height:100%;vertical-align : middle; display:inline-block; *zoom: 1;width :0;}
+.main2 .work-list li p{ line-height:32px;}
+
+/*分页*/
+.assign-page{ width:100%; text-align:center; padding:30px 0;}
+.assign-page strong, .assign-page a{ display:inline-block; *zoom:1; *display:inline; vertical-align:middle;}
+.assign-page a span{ padding:0 10px; height:25px; line-height:25px; display:inline-block; *zoom:1; *display:inline; background:url(/resources/images/bespread-bg.png) repeat-x 0 -180px; cursor:pointer; border:1px solid #eaeaea;font-size: 12px;color: #1A1818;}
+.assign-page .on span, .assign-page a:hover span{ background-position: 0 -205px; border:1px solid #aec999; color:#50a20f; text-decoration:none;}
+.assign-page .on{ cursor:default;}
+.assign-page .no{}
+.assign-page a.no span,
+.assign-page a.no:hover span{ background-position:0 0; color:#aaaaaa; border:1px solid #eaeaea; cursor:no-drop;}
+
+.assign-page2{}
+.assign-page2 strong,
+.assign-page2 a{ float:left; display:inline; margin-left:10px; font-weight:normal;}
+.assign-page2 a span{ padding:0 10px; height:25px; line-height:25px; display:inline-block; *zoom:1; *display:inline; background:url(/resources/images/bespread-bg.png) repeat-x 0 -180px; cursor:pointer; border:1px solid #eaeaea;}
+.assign-page2 a:hover span{ background-position: 0 -205px; border:1px solid #aec999; color:#50a20f; text-decoration:none;}
+.assign-page2 a.no span,
+.assign-page2 a.no:hover span{ background-position:0 0; color:#aaaaaa; border:1px solid #eaeaea; cursor:no-drop;}
+
+

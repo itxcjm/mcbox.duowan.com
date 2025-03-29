@@ -1,0 +1,22 @@
+﻿.main1{ width:977px; height:516px; margin:0 auto;}
+.main1 .enlist{ float:left; margin-top:65px;}
+.main1 .enlist p{ margin-left:40px;}
+.main1 .enlist .msg{ text-align:center; color:#ea5353;}
+.main1 .enlist .msg span,
+.main1 .enlist p span{ color:#ea5353;}
+.main1 .enlist a.btn{ display:block; width:368px; height:111px; background:url(/resources/images/act/index/enlist_btn.jpg) no-repeat 0 0;}
+.main1 .enlist img{ margin:10px 0;}
+.main1 .video{ float:right; width:537px; height:420px; background:#fff; margin-top:42px;}
+
+.main2{ width:1197px; height:536px; _overflow:hidden; background:url(/resources/images/act/index/main2_bg.png) no-repeat 0 0; _background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/index/main2_bg.png");}
+
+.main3 .rule{ width:1036px; margin:0 auto; padding-bottom:50px;}
+.main3 .rule h3{ line-height:106px; font-size:36px; text-align:center;}
+.main3 .rule p{ }
+.main3 .rater{ width:100%; min-width:1198px; background:#85b029;}
+.main3 .rater h2{ text-align:center; line-height:132px;}
+.main3 .rater ul{ width:1036px; margin:0 auto; overflow:hidden;}
+.main3 .rater li{ float:left; margin-bottom:85px; width:100%; clear:left;}
+.main3 .rater li .pic{ float:left; width:152px; height:152px;}
+.main3 .rater li .info{ float:right; width:870px;}
+

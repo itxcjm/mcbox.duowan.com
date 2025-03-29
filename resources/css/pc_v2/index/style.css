@@ -1,0 +1,443 @@
+body{
+    font-family: "Microsoft YaHei";
+    background-color: #141414;
+}
+a{cursor: pointer;}
+a:hover{
+    text-decoration: none;
+}
+.mc-main{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.mc-main1{
+   
+     background: #131112 url("/resources/css/pc_v2/index/images/bg1.jpg") no-repeat center;
+}
+.mc-main2{
+    background: url("/resources/css/pc_v2/index/images/bg2.jpg") no-repeat center #161616;
+}
+.mc-main3{
+    background: url("/resources/css/pc_v2/index/images/bg3.jpg") no-repeat center;
+}
+.mc-main4{
+    background: url("/resources/css/pc_v2/index/images/bg4.jpg") no-repeat center #191919;
+}
+.mc-main1 .mc-main{
+    height: 720px;
+}
+.mc-main2 .mc-main{
+    height: 720px;
+}
+.mc-main3 .mc-main{
+    height: 720px;
+}
+.mc-main4 .mc-main{
+    height: 620px;
+}
+.top-main{
+    width: 100%;
+    height: 79px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("/resources/css/pc_v2/index/images/top.png");
+    border-bottom: 1px solid #2a2e28;
+    _background: 0 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/top.png", sizingMethod="noscale");
+}
+.top-content{
+    width: 1000px;
+    height: 79px;
+    margin: 0 auto;
+    position: relative;
+}
+.mc-logo{
+    width: 185px;
+    height: 52px;
+    background: url("/resources/css/pc_v2/index/images/logo.png") no-repeat 0 8px;
+    padding-top: 8px;
+
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/logo.png", sizingMethod="noscale");
+    float: left;
+}
+.move-icon{
+    width: 104px;
+    height: 40px;
+    background: url("/resources/css/pc_v2/index/images/yd.png") no-repeat 0 0;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    margin-top: 15px;
+    float: right;
+    color: #fff;
+    font-size: 14px;
+}
+.new_notice{
+    width: 104px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    margin-top: 15px;
+    float: right;
+    color: red;
+    font-size: 14px;
+}
+.qr-main{
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    border: 1px solid #323332;
+    top: 79px;
+    right: -32px;
+    padding: 14px;
+    background-color: #141414;
+}
+.qr-main .sj{
+    width: 22px;
+    height: 12px;
+    background: url("/resources/css/pc_v2/index/images/sj.png") no-repeat 0 0;
+    position: absolute;
+    top: -12px;
+    left: 74px;
+}
+.qr-main img{
+    width: 100%;
+    height: 100%;
+}
+.title-main{
+    padding-top: 28px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.big-title{
+    font-size: 44px;
+}
+.small-title{
+    font-size: 22px;
+}
+.dowmload-mainss{
+    width: 156px;
+    height: 48px;
+    padding:21px 32px;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+.dowmload-main{
+    width: 156px;
+    height: 48px;
+    padding: 59px 60px;
+    margin: 0 auto 0 auto;
+    background: url("/resources/css/pc_v2/index/images/btn.png") no-repeat 0 0;
+    position: absolute;
+    top: -25px;
+    left: -22px;
+}
+.dowmload-main:hover{
+    background: url("/resources/css/pc_v2/index/images/btn_hover.png") no-repeat 0 0;
+}
+.dowmload-main:active{
+    background: url("/resources/css/pc_v2/index/images/btn_press.png") no-repeat 0 0;
+}
+.dowm-icon-b{
+    width: 156px;
+    height: 48px;
+    background: url("/resources/css/pc_v2/index/images/btn.png") no-repeat 0 0;
+    display: block;
+}
+.dowm-icon-b:hover{
+    background: url("/resources/css/pc_v2/index/images/btn_hover.png") no-repeat 0 0;
+}
+.dowm-icon-b:active{
+    background: url("/resources/css/pc_v2/index/images/btn_press.png") no-repeat 0 0;
+}
+.first-imgmain{
+    width: 648px;
+    height: 372px;
+    padding: 49px 0 0 0;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.first-imgmenu{
+    position: absolute;
+    top: 56px;
+    left: 0;
+    height: 372px;
+    overflow: hidden;
+}
+.first-imgmenu li{
+    width: 648px;
+    height: 372px;
+    float: left;
+}
+.first-imgmenu li img{
+    width: 100%;
+    height: 100%;
+}
+.first-trunmenu{
+    width: 85px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -42px;
+}
+.first-trunmenu li{
+    width: 9px;
+    height: 9px;
+    float: left;
+    margin:0 6px;
+    background-color: #222f27;
+    cursor: pointer;
+}
+.first-trunmenu li.click{
+    width: 7px;
+    height: 7px;
+    background-color: #1d9c2e;
+    margin: 1px 6px;
+}
+.mc-title,.mc-title2{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin:  0 auto;
+    padding: 40px 0;
+    opacity: 0.8;
+}
+.mc-title2{
+    padding: 82px 0;
+}
+.fun-menu{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+.fun-menu li{
+    width: 249px;
+    height: 249px;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+.fun-img1,.fun-img2,.fun-img3,.fun-img4,.fun-img5,.fun-img6,.fun-img7,.fun-img8{
+    width: 180px;
+    height: 168px;
+    margin: 0 auto 0 auto;
+}
+.fun-img1{
+    background: url("/resources/css/pc_v2/index/images/ic1.png") no-repeat center;
+    _background: center;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/ic1.png", sizingMethod="noscale");
+}
+.fun-img2{
+    background: url("/resources/css/pc_v2/index/images/ic2.png") no-repeat center;
+    _background: center;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/ic2.png", sizingMethod="noscale");
+}
+.fun-img3{
+    background: url("/resources/css/pc_v2/index/images/ic3.png") no-repeat center;
+    _background: center;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/ic3.png", sizingMethod="noscale");
+}
+.fun-img4{
+    background: url("/resources/css/pc_v2/index/images/ic4.png") no-repeat center;
+    _background: center;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/ic4.png", sizingMethod="noscale");
+ }
+.fun-img5{
+    background: url("/resources/css/pc_v2/index/images/ic5.png") no-repeat center;
+    _background: center;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/ic5.png", sizingMethod="noscale");
+}
+.fun-img6{
+    background: url("/resources/css/pc_v2/index/images/ic6.png") no-repeat center;
+    _background: center;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/ic6.png", sizingMethod="noscale");
+}
+.fun-img7{
+    background: url("/resources/css/pc_v2/index/images/ic7.png") no-repeat center;
+    _background: center;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/ic7.png", sizingMethod="noscale");
+}
+.fun-img8{
+    background: url("/resources/css/pc_v2/index/images/ic8.png") no-repeat center;
+    _background: center;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/ic8.png", sizingMethod="noscale");
+}
+.fun-title{
+    font-size: 16px;
+    opacity: 0.6;
+
+}
+.fun-content{
+    width: 180px;
+    font-size: 12px;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+.second-turn{
+    padding-top: 260px;
+}
+.second-turn-l,.second-turn-r{
+    float: left;
+}
+.second-turn-l{
+    width: 296px;
+    padding-left: 64px;
+}
+.second-turn-r{
+    width: 394px;
+    height: 274px;
+    margin-left: 84px;
+    overflow: hidden;
+    position: relative;
+}
+.second-turnmenu{
+    height: 48px;
+    overflow: hidden;
+}
+.second-turnmenu li{
+    width: 66px;
+    height: 52px;
+    float: left;
+    background: url("/resources/css/pc_v2/index/images/turn1.png") no-repeat 0 0;
+}
+.second-turnmenu li.click{
+    background: url("/resources/css/pc_v2/index/images/turn1-c.png") no-repeat 14px 17px;
+}
+.second-turnmenu li a{
+    width: 40px;
+    height: 20px;
+    display: block;
+    margin:  16px 0 0 14px;
+}
+.second-imgmenu{
+    height: 274px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.second-imgmenu ul{
+    width: 394px;
+    height: 274px;
+    float: left;
+}
+.second-imgmenu ul li{
+    width: 174px;
+    height: 114px;
+    background: #3a3a3a;
+    padding: 3px;
+    float: left;
+    margin: 8px;
+    *margin:8px 4px;
+}
+.second-imgmenu ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.second-imgmenu ul li a img{
+    width: 100%;
+    height: 100%;
+}
+.third-turn{
+position: relative;
+    height: 350px;
+    overflow: hidden;
+
+}
+.third-turnmain{
+    width: 1000px;
+    height: 254px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.third-turnmain ul{
+    width: 1000px;
+    height: 254px;
+    overflow: hidden;
+    float: left;
+}
+.third-turnmain ul li{
+    width: 248px;
+    height: 248px;
+    float: left;
+    background: url("/resources/css/pc_v2/index/images/imgbg.png") no-repeat 0 0;
+}
+.third-turnmain ul li img{
+    width: 224px;
+    height: 118px;
+    margin:  0 0 0 12px;
+    padding-top: 14px;
+}
+.third-turnmain ul li .title{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 0;
+    opacity: 0.8;
+}
+.third-turnmain ul li a.dowmload-icon{
+    width: 106px;
+    height: 40px;
+    margin:  0 auto;
+    background: url("/resources/css/pc_v2/index/images/download.png") no-repeat 0 0 ;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+
+
+}
+.third-turnmenu{
+    width: 200px;
+    height: 46px;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+.third-turnmenu li{
+    width: 48px;
+    height: 46px;
+    float: left;
+    background:url("/resources/css/pc_v2/index/images/turn2.png")  no-repeat 20px 20px;
+    _background: 0 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/icon8.png", sizingMethod="noscale");
+}
+.third-turnmenu li.click{
+    background:url("/resources/css/pc_v2/index/images/turn2-c.png")  no-repeat 0 0;
+    _background: 0 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/resources/css/pc_v2/index/images/icon8.png", sizingMethod="noscale");
+}
+.third-turnmenu li a{
+    width: 9px;
+    height: 9px;
+    display: block;
+    margin: 20px 0 0 20px;
+}
+.footer {
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
+    line-height: 22px;
+    clear: both;
+    color: #666;
+}
+.footer a {
+    margin: 0 5px 0 3px;
+    color: #666;
+}
+.footer a:hover{
+    color: #0789D3;
+}
+
+

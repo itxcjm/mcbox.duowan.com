@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+html {-ms-touch-action: none;}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "华文细黑", Helvetica,STHeiti,Droid Sans Fallback;
+}
+body{
+    text-align: center;
+    color: #fff;
+    background: #EBEBEB;
+    font-size: 62.5%;
+    background:url(/resources/images/peAct/bg.jpg) repeat center center;
+}
+img{
+    width:100%;
+    max-width:720px;
+}
+.wrap{
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto; position:relative;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.fl{ float:left;}
+.fr{ float:right;}
+/*通用样式*/
+.t-bg{ width:100%;}
+
+.top{ width:100%;}
+.top .menu{ position:relative;}
+.top .menu a{ width:49.16%; margin-bottom:1.6%;}
+.top .menu a.on .normal,
+.top .menu a:hover .normal,
+.top .menu a .hover{ display:none;}
+.top .menu a.on .hover,
+.top .menu a:hover .hover{ display:block;}
+.top .menu a img{ width:100%;}
+.top .w703c{ position:absolute; top:0; left:0; width:100%; height:100%; padding:0 3.84%; box-sizing: border-box;}
+
+.wrapper{ padding:0 1.1%;}
+.wrapper .column{ margin:1em 0;}
+.wrapper .w703c{ padding:0 3.84%; background:#8fbe2b;}
+.wrapper .content{ width:100%; background:#8fbe2b;}
+
+
+
+/*通用样式 end*/
+
+
+@media (max-width: 720px) {
+    body{
+        font-size: 45%;
+    }
+}
+@media (max-width: 640px) {
+    body{
+        font-size: 40%;
+    }
+}
+@media (max-width: 480px) {
+    body{
+        font-size: 35%;
+    }
+}
+@media (max-width: 320px) {
+    body{
+        font-size: 30%;
+    }
+}

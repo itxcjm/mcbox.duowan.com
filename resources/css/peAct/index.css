@@ -1,0 +1,26 @@
+﻿
+.main1 h3{ line-height:2.2em; font-size:3em; text-align:center; font-weight:normal;}
+.main1 .video{ width:100%; background:#fff;}
+.main1 .video *{ width:100%;}
+.main1 .enlist{ width:100%; padding:1em 0; text-align:center;}
+.main1 .enlist p{ font-size:2em;}
+.main1 .enlist p span{ color:#f33b3b;}
+.main1 .enlist .img{ width:46.37%; margin:1em auto;}
+.main1 .enlist .btn{ width:61.88%; display:block; margin:0 auto;}
+.main1 .enlist .btn img{ width:100%;}
+.main1 .enlist .num{ text-align:center; color:#f33b3b; font-size:2em;}
+
+.main2 img{ width:100%;}
+
+.main3 .rule{ padding-bottom:2em;}
+.main3 .rule h3{ line-height:3em; font-size:3em; text-align:center; font-weight:normal;}
+.main3 .rule p{ line-height:2em; text-align:left; font-size:2em;}
+.main3 .rater{ background:#85b029;}
+.main3 .rater h3{ font-size:3em; line-height: 3em; text-align:center;}
+.main3 .rater .list ul,
+.main3 .rater .list{ width:100%; padding-bottom:1em;}
+.main3 .rater .list li{margin-bottom:2em; width:100%;}
+.main3 .rater .list .pic{ overflow:hidden; position:relative;}
+.main3 .rater .list .pic img{float:right; width:25.32%;}
+.main3 .rater .list .pic .name{ position:absolute; bottom:0; left:0; font-size:2.4em;}
+.main3 .rater .list p{margin-top:1em; line-height:1.8em; font-size:2em;}

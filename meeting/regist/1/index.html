@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>报名</title>
+	<meta name="Keywords" content="报名"/>
+	<meta name="description" content="报名" />
+	<link rel="stylesheet" rev="stylesheet" href="/resources/css/meeting/index.css?1" type="text/css" media="all" />
+	<link rel="stylesheet" rev="stylesheet" href="/resources/js/validate/jquery.validator.css" type="text/css" media="all" />
+	<script type="text/javascript" src="/resources/js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="/resources/js/validate/jquery.validator.js"></script>
+	<script type="text/javascript" src="/resources/js/validate/local/zh-CN.js"></script>
+	<script type="text/javascript" src="/resources/js/meeting/citys.js"></script>
+	<script type="text/javascript" src="/resources/js/meeting/dateSelector.js"></script>
+	<script type="text/javascript">
+		document.domain ="duowan.com";
+		$(function () {
+			$("#address").province_city_county();
+			$("#birthday_container").birthday();
+
+			$('.tit').each(function(){
+				if($(this).text() == '身份证号码:'){
+					return;
+				}
+				if($(this).text() == '实名认证照片:'){
+					return;
+				}
+				$(this).prepend('<span style="color:red">*</span>');
+			});
+
+			$('#mainForm').validator({
+				theme: 'yellow_top',
+				valid: function(form) {
+
+					trackEvent('mcbox_meeting_reg', 'btn_submit');
+
+					$('#regDateH').val(getRegDate());
+					console.log('getRegDate->'+getRegDate());
+					var address = '';
+					$('#address select').each(function(){
+						address += $(this).val();
+					});
+					address += $('#address-other').val();
+					address = address.replace(/null/gi,"");
+					console.log('address->'+address);
+					if(address == ''){
+						alert('请填写:现居地');
+
+						trackEvent('mcbox_meeting_reg', 'btn_submit_miss_address');
+
+						return;
+					}
+					$('#addressH').val(address);
+					var age = $('#mainForm').find('input[name="age"]').val();
+					age = parseInt(age);
+					if(age < 16){
+						if($('#parentSignImgH').val() == ''){
+							alert('未满16岁，需要提供监护人手抄照');
+
+							trackEvent('mcbox_meeting_reg', 'btn_submit_miss_parent');
+
+							return;
+						}
+					}
+					if(age >= 16){
+						var author = $('#authorAvatarH').val();
+						if(author=='' || author == '/resources/images/meeting/img2.jpg'){
+							alert('实名认证照片不能为空');
+
+							trackEvent('mcbox_meeting_reg', 'btn_submit_miss_avatar');
+
+							return;
+						}
+						if($('#identityCardNumInput').val() == ''){
+							alert('身份证不能为空');
+
+							trackEvent('mcbox_meeting_reg', 'btn_submit_miss_id_card');
+
+							return;
+						}
+					}
+
+					if($('select[name="deviceType"]').val() != 2){
+						if(!(/^\d+$/).test($('input[name="mcBoxId"]').val())){
+							trackEvent('mcbox_meeting_reg', 'btn_submit_mcbox_id_is_nan');
+							alert('盒子id必须为数字');
+							return;
+						}
+					}
+
+					trackEvent('mcbox_meeting_reg', 'btn_submit_ready');
+
+					$.post("http://mcbox.duowan.com/meeting/save/1", $('#mainForm').serialize(), function(data){
+						if(data.status == 200){
+
+							trackEvent('mcbox_meeting_reg', 'btn_submit_ok');
+
+							location.href = "http://mcbox.duowan.com/resources/act/meeting/success_1.html";
+						}else{
+
+							trackEvent('mcbox_meeting_reg', 'btn_submit_error:'+data.msg);
+
+							alert(data.msg);
+						}
+					});
+				}
+			});
+		});
+
+		function uploadIdCardImg(){
+
+			trackEvent('mcbox_meeting_reg', 'btn_upload_id_card_click');
+
+			$('#idCardForm').submit();
+			$('#idCardImg').attr('src', '/resources/img/loading-1.gif');
+		}
+		function uploadIdCardImgCB(data) {
+
+			trackEvent('mcbox_meeting_reg', 'btn_upload_id_card_ok');
+
+			$('#idCardImg').attr('src', 'http://mcbox.res.duowan.com/temp/'+data[0].bigImageUrl);
+			$('#authorAvatarH').val(data[0].bigImageUrl);
+		}
+		function uploadParentSignImg(){
+
+			trackEvent('mcbox_meeting_reg', 'btn_upload_parent_click');
+
+			$('#parentSignForm').submit();
+			$('#parentSignImg').attr('src', '/resources/img/loading-1.gif');
+		}
+		function uploadParentSignImgCB(data) {
+
+			trackEvent('mcbox_meeting_reg', 'btn_upload_parent_ok');
+
+			$('#parentSignImg').attr('src', 'http://mcbox.res.duowan.com/temp/'+data[0].bigImageUrl);
+			$('#parentSignImgH').val(data[0].bigImageUrl);
+		}
+		function getRegDate(){
+			var array = ['year', 'month', 'day'];
+			var date = '';
+			for(var i in array){
+				var str = $('#birthday_container select[name='+array[i]+']').val();
+				if(i==0){
+					date += str;
+				}else{
+					if(str.length == 1){
+						date += '-0' + str;
+					}else{
+						date += str;
+					}
+				}
+			}
+			return date;
+		}
+	</script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "//hm.baidu.com/hm.js?94eff913c5b46aa068450df8c163a581";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+		function trackEvent(category, action, opt_label, opt_value) {
+//            alert(category + action);
+			try {
+				if (!opt_value) {
+					opt_value = null;
+				}
+
+				// baidu statistic
+				if (window['_hmt'] != null && _hmt != undefined && _hmt) {
+					_hmt
+							.push([ '_trackEvent', category, action, opt_label,
+								opt_value ]);
+				}
+
+				// google statistic
+				if (window['ga'] != null && ga != undefined && ga) {
+					ga('send', 'event', category, action, opt_label, opt_value);
+				}
+
+			} catch (e) {
+
+			}
+			return true;
+		}
+	</script>
+</head>
+<body>
+<div class="wrap">
+	<div class="header"><img src="/resources/images/meeting/head_bg.png"></div>
+	<div class="attention wrap">
+		<div>
+			<h2>报名注意事项</h2>
+			<p>1. 本次报名不收取任何费用，请根据以下要求选择并详细填写你的真实姓名、手机号码等信息；</p>
+			<p>2. 仅邀请100名，资料填写完整详细且狂热的玩家，我们会有限邀请；</p>
+			<p>3. 请各位注意在7月25号以后查收盒子君私信以及手机电话，受邀用户将会进行两次确认；</p>
+			<p>4. 所有通过我们报名审核，受邀到现场的盒饭都将获得由多玩我的世界盒子官方及合作厂商提供的精美入场礼包一份；</p>
+			<p>5. 报名日期：7月1日-7月24日；</p>
+			<p>6. 请如实填写报名信息，一经发现虚假信息官方有权取消报名资格；</p>
+		</div>
+	</div>
+	<div class="forms">
+		<form action="http://mcbox.duowan.com/meeting/save/1" id="mainForm" method="post">
+			<div>
+				<input type="hidden" name="registDateStr" id="regDateH">
+				<input type="hidden" name="address" id="addressH">
+				<input type="hidden" name="authorAvatar" id="authorAvatarH">
+				<input type="hidden" name="parentSignImg" id="parentSignImgH">
+			</div>
+			<div class="row">
+				<div class="tit">你的盒子版本:</div>
+				<div class="cont">
+					<select name="deviceType">
+						<option value="1">android版</option>
+						<option value="2">ios版</option>
+						<option value="4">pc版</option>
+						<option value="5">android联机</option>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">你的真实姓名:</div>
+				<div class="cont">
+					<input type="text" name="name" maxlength="4" data-rule="required;"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">性别:</div>
+				<div class="cont">
+					<select name="sex">
+						<option value="1">男生</option>
+						<option value="2">女生</option>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">年龄:</div>
+				<div class="cont">
+					<input type="text" name="age" maxlength="3" onkeyup='this.value=this.value.replace(/\D/gi,"")' data-rule="required;"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">现居地:</div>
+				<div class="cont">
+					<div id="address">
+						<select>
+							<option>广东</option>
+						</select>
+						省
+						<select>
+							<option>广州</option>
+						</select>
+						市
+						<select>
+							<option>番禹</option>
+						</select>
+						县/区
+					</div>
+					<div><input type="text" style="width:100%;" id="address-other" data-rule="required;"/></div>
+					<p>(广东省外自费过来参与的盒饭，凭交通票据现场领取小礼品一份)</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">手机号码:</div>
+				<div class="cont">
+					<input type="text" name="phone" maxlength="11" onkeyup='this.value=this.value.replace(/\D/gi,"")' data-rule="required;mobile;"/>
+					<p>(请填写11位数手机号码，若自己没有手机，请填写能够联系上你的长辈手机号码)</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">申请理由:</div>
+				<div class="cont">
+					<textarea name="reason" data-rule="required;"></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">盒子id:</div>
+				<div class="cont">
+					<input type="text" name="mcBoxId" maxlength="20" data-rule="required;"/>
+					<p>（PC用户填写YY通行证，IOS版用户填写昵称）</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">注册日期:</div>
+				<div class="cont" id="birthday_container">
+					<select name="year" value="2016">
+					</select>
+					年
+					<select name="month" value="1">
+					</select>
+					月
+					<select name="day" value="1">
+					</select>
+					<p>(请如实填写，以便官方根据盒子id核实)</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">QQ号:</div>
+				<div class="cont">
+					<input type="text" maxlength="11" name="qq" onkeyup='this.value=this.value.replace(/\D/gi,"")' data-rule="required;qq;"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="tit">身份证号码:</div>
+				<div class="cont">
+					<input type="text" maxlength="18" name="identityCardNum" data-rule="IDcard" id="identityCardNumInput"/>
+					<p>(请如实填写，若还没办理身份证，请提供家长或监护人信息)</p>
+				</div>
+			</div>
+			<div class="row" style="display: none">
+				<button class="submit" id="reallySubmit">提交报名表</button>
+			</div>
+		</form>
+		<!-- upload -->
+		<div class="row">
+			<form action="http://mcbox.res.duowan.com/pub/web/uploadImagesTemporary" method="post" enctype="multipart/form-data" target="jUploadFrame1" id="idCardForm" novalidate>
+				<div style="display: none">
+					<input type="file" name="uploadImages" id="idCardFile" onchange="uploadIdCardImg()">
+					<input type="hidden" name="callback" value="uploadIdCardImgCB">
+					<input type="submit">
+				</div>
+				<div class="tit">实名认证照片:</div>
+				<div class="cont">
+					<div>
+						<a class="upimg" style="cursor: pointer;" onclick="$('#idCardFile').click()">上传图片</a>
+						<div class="img"><img id="idCardImg" src="/resources/images/meeting/img2.jpg"></div>
+					</div>
+					<p>(请手持身份证正面拍照，要求身份证信息及持证人五官清晰可见)</p>
+				</div>
+			</form>
+		</div>
+
+		<div class="row" style="height: 3em;">
+			<form action="http://mcbox.res.duowan.com/pub/web/uploadImagesTemporary?t=1" method="post" enctype="multipart/form-data" target="jUploadFrame2" id="parentSignForm" novalidate>
+				<div style="display: none">
+					<input type="file" name="uploadImages" id="parentSignFile" onchange="uploadParentSignImg()">
+					<input type="hidden" name="callback" value="uploadParentSignImgCB">
+					<input type="submit">
+				</div>
+				<a class="upimg" style="cursor: pointer;" onclick="$('#parentSignFile').click()">上传图片</a>
+				<div class="p tit" style="width: 22em;text-align: left;">未满16周岁前往家长/监护人授权书:<p>(请家长按照下述文字手抄填写一份并拍照上传)</p></div>
+			</form>
+		</div>
+		<div class="row">
+			<div class="cont">
+				<div class="img"><img id="parentSignImg"></div>
+			</div>
+		</div>
+		<div class="row authors">
+			<p>多玩我的世界盒子工作人员：</p>
+			<p>我和____为____关系，8月13日我将带着我的小孩____前往多玩我的世界盒子首届玩家见面会，<br/>我将确保____在前往路途、见面会现场、往返路途中的各项安全。</p>
+			<p class="fts">
+			承诺人：<br/>
+			工作单位：<br/>
+			联系电话：<br/>
+			2016年__月__日
+			</p>
+		</div>
+		<div class="row">
+			<button class="submit" onclick="$('#reallySubmit').click()">提交报名表</button>
+		</div>
+	</div>
+</div>
+<iframe id="jUploadFrame1" style="position:absolute; top:-9999px; left:-9999px" name="jUploadFrame1"></iframe>
+<iframe id="jUploadFrame2" style="position:absolute; top:-9999px; left:-9999px" name="jUploadFrame2"></iframe>
+<script>
+	$('#idCardFile').on('click', function(){
+		trackEvent('mcbox_meeting_reg', 'btn_id_card');
+	});
+	$('#parentSignFile').on('click', function(){
+		trackEvent('mcbox_meeting_reg', 'btn_parent');
+	});
+</script>
+</body>
+</html>
